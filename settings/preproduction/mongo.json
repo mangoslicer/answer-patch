@@ -1,0 +1,7 @@
+{
+	"Username": "root",
+	"Password": "password",
+	"Addr": "27017",
+	"DBName": "ap1",
+	"ColName": "rep"
+}
