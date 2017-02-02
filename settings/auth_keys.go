@@ -40,7 +40,7 @@ func GetPublicKey() *rsa.PublicKey {
 
 func getKeyData(fileName string) *pem.Block {
 
-	file, err := os.Open("/home/dipen/go/src/github.com/patelndipen/AP1/settings/" + os.Getenv("GO_ENV") + "/" + fileName)
+	file, err := os.Open("/home/dipen/go/src/github.com/mangoslicer/answer-patch/settings/" + os.Getenv("GO_ENV") + "/" + fileName)
 	if err != nil {
 		log.Fatal(err)
 	}

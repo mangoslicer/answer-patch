@@ -4,8 +4,8 @@ import (
 	"log"
 	"testing"
 
-	"github.com/patelndipen/AP1/models"
-	"github.com/patelndipen/AP1/settings"
+	"github.com/mangoslicer/answer-patch/models"
+	"github.com/mangoslicer/answer-patch/settings"
 )
 
 var GlobalAnswerStore *AnswerStore

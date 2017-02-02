@@ -5,11 +5,11 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/patelndipen/AP1/datastores"
-	"github.com/patelndipen/AP1/handlers"
-	m "github.com/patelndipen/AP1/middleware"
-	auth "github.com/patelndipen/AP1/services"
-	"github.com/patelndipen/AP1/settings"
+	"github.com/mangoslicer/answer-patch/datastores"
+	"github.com/mangoslicer/answer-patch/handlers"
+	m "github.com/mangoslicer/answer-patch/middleware"
+	auth "github.com/mangoslicer/answer-patch/services"
+	"github.com/mangoslicer/answer-patch/settings"
 )
 
 type Server struct {

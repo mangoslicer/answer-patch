@@ -11,9 +11,9 @@ import (
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/gorilla/mux"
-	"github.com/patelndipen/AP1/models"
-	"github.com/patelndipen/AP1/services"
-	"github.com/patelndipen/AP1/settings"
+	"github.com/mangoslicer/answer-patch/models"
+	"github.com/mangoslicer/answer-patch/services"
+	"github.com/mangoslicer/answer-patch/settings"
 )
 
 const (

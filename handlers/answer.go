@@ -4,10 +4,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/patelndipen/AP1/datastores"
-	m "github.com/patelndipen/AP1/middleware"
-	"github.com/patelndipen/AP1/models"
-	"github.com/patelndipen/AP1/services"
+	"github.com/mangoslicer/answer-patch/datastores"
+	m "github.com/mangoslicer/answer-patch/middleware"
+	"github.com/mangoslicer/answer-patch/models"
+	"github.com/mangoslicer/answer-patch/services"
 )
 
 func ServeSubmitAnswer(store datastores.AnswerStoreServices) m.HandlerFunc {

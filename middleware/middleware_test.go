@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	auth "github.com/patelndipen/AP1/services"
-	"github.com/patelndipen/AP1/settings"
+	auth "github.com/mangoslicer/answer-patch/services"
+	"github.com/mangoslicer/answer-patch/settings"
 )
 
 type MockTokenStore struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/patelndipen/AP1/settings"
+	"github.com/mangoslicer/answer-patch/settings"
 	"gopkg.in/mgo.v2"
 )
 

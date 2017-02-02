@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/patelndipen/AP1/models"
+	"github.com/mangoslicer/answer-patch/models"
 )
 
 type UserStoreServices interface {

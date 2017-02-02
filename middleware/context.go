@@ -1,9 +1,9 @@
 package middleware
 
 import (
-	"github.com/patelndipen/AP1/datastores"
-	"github.com/patelndipen/AP1/models"
-	auth "github.com/patelndipen/AP1/services"
+	"github.com/mangoslicer/answer-patch/datastores"
+	"github.com/mangoslicer/answer-patch/models"
+	auth "github.com/mangoslicer/answer-patch/services"
 )
 
 type Context struct {

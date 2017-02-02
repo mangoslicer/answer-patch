@@ -6,9 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	m "github.com/patelndipen/AP1/middleware"
-	"github.com/patelndipen/AP1/models"
-	auth "github.com/patelndipen/AP1/services"
+	m "github.com/mangoslicer/answer-patch/middleware"
+	"github.com/mangoslicer/answer-patch/models"
+	auth "github.com/mangoslicer/answer-patch/services"
 )
 
 type MockQuestionStore struct {

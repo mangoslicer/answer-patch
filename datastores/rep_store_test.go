@@ -3,7 +3,7 @@ package datastores
 import (
 	"testing"
 
-	"github.com/patelndipen/AP1/settings"
+	"github.com/mangoslicer/answer-patch/settings"
 )
 
 var GlobalRepStore *RepStore

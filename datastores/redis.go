@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/garyburd/redigo/redis"
-	"github.com/patelndipen/AP1/settings"
+	"github.com/mangoslicer/answer-patch/settings"
 )
 
 func ConnectToRedis() redis.Conn {

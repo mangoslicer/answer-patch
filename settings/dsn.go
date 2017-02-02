@@ -59,7 +59,7 @@ func GetMongoDSN() *MongoDSN {
 
 func getDSN(dbName string, dsnStruct interface{}) {
 
-	content, err := ioutil.ReadFile("/home/dipen/go/src/github.com/patelndipen/AP1/settings/" + os.Getenv("GO_ENV") + "/" + dbName + ".json")
+	content, err := ioutil.ReadFile("/home/dipen/go/src/github.com/mangoslicer/answer-patch/settings/" + os.Getenv("GO_ENV") + "/" + dbName + ".json")
 	if err != nil {
 		log.Fatal(err)
 	}
