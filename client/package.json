@@ -1,0 +1,8 @@
+{
+  "name": "answer-patch",
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "^15.3.0",
+    "redux": "^3.5.2"
+  }
+}
