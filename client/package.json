@@ -1,8 +1,15 @@
 {
   "name": "answer-patch",
   "version": "0.0.1",
+  "devDependencies": {
+    "react-scripts": "^0.6.0"
+  },
   "dependencies": {
     "react": "^15.3.0",
+    "react-dom": "^15.3.0",
     "redux": "^3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start"
   }
 }
